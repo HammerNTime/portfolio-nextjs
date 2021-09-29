@@ -1,0 +1,14 @@
+.icon {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-10deg);
+  margin: -9px 0px -9px -15px;
+  transition: transform .7s ease-in-out;
+
+}
+
+.icon:hover {
+  cursor: pointer;
+  transition: transform .7s ease-in-out;
+  transform: rotate(-90deg);
+}

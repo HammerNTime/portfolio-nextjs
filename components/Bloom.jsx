@@ -76,7 +76,7 @@ const Bloom = () => {
 
 			<Collapse in={expanded} timeout="auto" unmountOnExit>
 				<CardContent>
-					<Typography paragraph>
+					<Typography paragraph height="120px">
 						Bloom is a job opportunity tracking app built with a mobile-first
 						design. Four of us built this in a seven day sprint as a final
 						project for our General Assembly Software Engineering Immersive.

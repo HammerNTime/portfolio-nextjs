@@ -25,7 +25,7 @@ const ExpandMore = styled((props) => {
 	}),
 }))
 
-const CapitolGains = () => {
+const Ugame = () => {
 	const [expanded, setExpanded] = React.useState(false)
 
 	const handleExpandClick = () => {
@@ -36,29 +36,30 @@ const CapitolGains = () => {
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
 				avatar={
-					<Avatar sx={{ bgcolor: "#CCFFFF"}} aria-label="Capitol Gains Icon">
-						<img src="/capitolGains-icon.png" alt="Capitol Gains Icon" width="28px" />
+					<Avatar sx={{ bgcolor: "rgb(0,212,255)"}} aria-label="Capitol Gains Icon">
+						<img src="/game-controller.png" alt="Capitol Gains Icon" width="28px" />
 					</Avatar>
 				}
-				title="Capitol Gains"
-				subheader="Stalk Rep's Stocks"
+				title="Ugame"
+				subheader="Own it"
 			/>
 			<CardMedia
 				component="img"
-				height="100"
-				image="/capitolGainsLogo.png"
-				alt="Capitol Gains Banner"
+				height="130"
+				image="/ugameLogo.png"
+				alt="Ugame Banner"
 			/>
 			<CardContent >
-				<Typography variant="body2" color="text.secondary" height="120px" >
-				Capitol Gains allows you to see the publicly released disclosures that have been filed by memebers of the United States Congress. The app is broken up by Senate and House of Representatives.
-				</Typography>
+				<Typography variant="body2" color="text.secondary" height="90px" >
+          U-Game is a site that you can browse video games from! 
+          Inside the site you can create a profile, browse or add games, make reviews, and create an &apos;owned list&apos; of games.				
+          </Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label="Capitol Gains website" href="https://capitol-gains.herokuapp.com/">
+				<IconButton aria-label="Ugame website" href="https://u-game-unit-2-project.herokuapp.com/">
 					<PublicIcon />
 				</IconButton>
-				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/capitol-gains">
+				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/u-game">
 					<GitHubIcon />
 				</IconButton>
 				<ExpandMore
@@ -73,18 +74,19 @@ const CapitolGains = () => {
 
 			<Collapse in={expanded} timeout="auto" unmountOnExit>
 				<CardContent>
+          <img width="100%" src="/UgameProfile.png" alt="Index page of Games currently on Ugame" />
 					<Typography paragraph>
-					Capitol Gains was the third project for my General Assembly Software Engineering Immersive and first ever group project. This App utalizes React, JavaScript, Mongoose, Express, and JWT Token Authentication. While I touched most aspects of the code, my primary focus was on API implementation, manipulation, and data visualization.
-					</Typography>
-					<img width="100%" src="/graph.png" alt="Capitol Gains API visualization through line graph" />
+            <br/>
+            U-Game is built with JavaScript, EJS, Mongoose, and Express and includes Google OAuth implementation. 
+            This my second unit project in my General Assembly Software Engineering Immersive and showcases a simple, yet effective design and full CRUD functionality.
+            Mobile responsiveness is the main feature still on the backburner.
+          </Typography>
+					<img width="100%" src="/ugameIndex.png" alt="Index page of Games currently on Ugame" />
 
-					<Typography paragraph>
-						<br/>Shout-out to&nbsp;<a className={styles.names} href="https://github.com/zmar0519">Zachary Martin</a>, and <a className={styles.names} href="https://github.com/SummerXiX">Summer Xing</a>&nbsp;for their dedication and hard work on this project!
-					</Typography>
 				</CardContent>
 			</Collapse>
 		</Card>
 	)
 }
 
-export default CapitolGains
+export default Ugame

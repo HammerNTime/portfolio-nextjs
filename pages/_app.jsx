@@ -4,14 +4,14 @@ import Head from "next/head"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <Head>
-        <title>Hammer Portfolio</title>
-      </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </>
+    <div className="main-container">
+        <Head>
+          <title>Hammer Portfolio</title>
+        </Head>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+    </div>
   )
 }
 

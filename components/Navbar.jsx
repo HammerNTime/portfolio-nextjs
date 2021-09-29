@@ -100,8 +100,8 @@ const Navbar = () => {
               {list("right")}
           </SwipeableDrawer>
           </React.Fragment>
-
         </Toolbar>
+
       </AppBar>
     </Box>
   );

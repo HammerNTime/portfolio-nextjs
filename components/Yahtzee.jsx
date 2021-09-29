@@ -25,7 +25,7 @@ const ExpandMore = styled((props) => {
 	}),
 }))
 
-const CapitolGains = () => {
+const Yahtzee = () => {
 	const [expanded, setExpanded] = React.useState(false)
 
 	const handleExpandClick = () => {
@@ -36,29 +36,28 @@ const CapitolGains = () => {
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
 				avatar={
-					<Avatar sx={{ bgcolor: "#CCFFFF"}} aria-label="Capitol Gains Icon">
-						<img src="/capitolGains-icon.png" alt="Capitol Gains Icon" width="28px" />
+					<Avatar sx={{ bgcolor: "white"}} aria-label="Yahtzee Icon">
+						<img src="/DiceFav.png" alt="Capitol Gains Icon" width="28px" />
 					</Avatar>
 				}
-				title="Capitol Gains"
-				subheader="Stalk Rep's Stocks"
+				title="Yahtzee"
+				subheader="Your Roll"
 			/>
 			<CardMedia
 				component="img"
-				height="100"
-				image="/capitolGainsLogo.png"
-				alt="Capitol Gains Banner"
+				height="150"
+				image="/Yahtzee.png"
+				alt="Ugame Banner"
 			/>
 			<CardContent >
-				<Typography variant="body2" color="text.secondary" height="120px" >
-				Capitol Gains allows you to see the publicly released disclosures that have been filed by memebers of the United States Congress. The app is broken up by Senate and House of Representatives.
-				</Typography>
+				<Typography variant="body2" color="text.secondary" height="70px" >
+        Yahtzee is an online 2-player classic Hasboro Yahtzee built from JavaScript, HTML, and CSS. A simple construction, but all the game logic is from scratch. Mobile and Desktop friendly!          </Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label="Capitol Gains website" href="https://capitol-gains.herokuapp.com/">
+				<IconButton aria-label="Yahtzee website" href="https://hammer-yahtzee.netlify.app/">
 					<PublicIcon />
 				</IconButton>
-				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/capitol-gains">
+				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/u-game">
 					<GitHubIcon />
 				</IconButton>
 				<ExpandMore
@@ -73,18 +72,17 @@ const CapitolGains = () => {
 
 			<Collapse in={expanded} timeout="auto" unmountOnExit>
 				<CardContent>
+          <img width="100%" src="/yahtzee-start.png" alt="Yahtzee starter page" />
 					<Typography paragraph>
-					Capitol Gains was the third project for my General Assembly Software Engineering Immersive and first ever group project. This App utalizes React, JavaScript, Mongoose, Express, and JWT Token Authentication. While I touched most aspects of the code, my primary focus was on API implementation, manipulation, and data visualization.
-					</Typography>
-					<img width="100%" src="/graph.png" alt="Capitol Gains API visualization through line graph" />
+            <br/>
+            Yahztee was my first project for my General Assembly Software Engineering Immersive. It demonstraights my ability to take a limited amount of experience and knowledge and turn it into an engaging application with sound engineering.
+          </Typography>
+					<img width="100%" src="/smart-highlighting-yellow.png" alt="Showing the apps smart highlighting feature" />
 
-					<Typography paragraph>
-						<br/>Shout-out to&nbsp;<a className={styles.names} href="https://github.com/zmar0519">Zachary Martin</a>, and <a className={styles.names} href="https://github.com/SummerXiX">Summer Xing</a>&nbsp;for their dedication and hard work on this project!
-					</Typography>
 				</CardContent>
 			</Collapse>
 		</Card>
 	)
 }
 
-export default CapitolGains
+export default Yahtzee

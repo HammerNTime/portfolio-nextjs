@@ -35,6 +35,7 @@ const Yahtzee = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
+
 				avatar={
 					<Avatar sx={{ bgcolor: "white"}} aria-label="Yahtzee Icon">
 						<img src="/DiceFav.png" alt="Capitol Gains Icon" width="28px" />

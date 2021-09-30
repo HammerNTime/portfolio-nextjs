@@ -76,7 +76,7 @@ const Yahtzee = () => {
           <img width="100%" src="/yahtzee-start.png" alt="Yahtzee starter page" />
 					<Typography paragraph>
             <br/>
-            Yahztee was my first project for my General Assembly Software Engineering Immersive. It demonstraights my ability to take a limited amount of experience and knowledge and turn it into an engaging application with sound engineering.
+            Yahztee was my first project for my General Assembly Software Engineering Immersive. It demonstrates my ability to take a limited amount of experience and knowledge and turn it into an engaging application with sound engineering.
           </Typography>
 					<img width="100%" src="/smart-highlighting-yellow.png" alt="Showing the apps smart highlighting feature" />
 

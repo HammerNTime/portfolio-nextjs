@@ -46,7 +46,7 @@ const Navbar = () => {
 		<Box
 			sx={{
 				width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-				cursor: "none",
+				cursor: "none"
 			}}
 			role="presentation"
 			onClick={toggleDrawer(anchor, false)}

@@ -1,5 +1,6 @@
 import Bloom from '../components/Bloom'
 import CapitolGains from '../components/CapitolGains'
+import Dylan from '../components/Dylan'
 import Ugame from '../components/Ugame'
 import Yahtzee from '../components/Yahtzee'
 import styles from '../styles/Home.module.css'
@@ -7,6 +8,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
+      <Dylan />
       <div className={styles.projects}>
         <div className={styles.projectCards}>
           <Bloom />

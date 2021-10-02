@@ -4,7 +4,7 @@
   left: 50%;
   width: 30px;
   /* border-radius: 100%; */
-  transform: translate(-50%, -50%) rotate(-20deg);
+  transform: translate(-50%, -50%) rotate(-40deg);
   z-index: 1999;
   pointer-events: none;
 }

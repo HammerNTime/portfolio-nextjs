@@ -203,6 +203,7 @@ const Navbar = () => {
 							aria-label="menu"
 							sx={{ mr: 0, cursor: "none" }}
 							onClick={toggleDrawer("right", true)}
+							className={styles.menuIcon}
 						>
 							<MenuIcon sx={{ fontSize: "35px", cursor: "none" }} />
 						</IconButton>

@@ -43,3 +43,7 @@
   width: 22px;
   margin-left: 1px;
 }
+
+.menuIcon:hover > span {
+  background-color: rgba(179, 179, 179, .3);
+}

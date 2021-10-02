@@ -8,7 +8,38 @@
 }
 
 .icon:hover {
-  cursor: pointer;
   transition: transform .7s ease-in-out;
   transform: rotate(-90deg);
+  cursor: none;
+}
+
+.homeHammerIcon {
+  transform: rotate(-10deg);
+  width: 33px;
+  margin-left: -3px;
+}
+
+.bloomNavIcon {
+  margin-left: -4px;
+}
+
+.gainsNavIcon {
+  width: 20px;
+  margin-left: 2px;
+  margin-top: -2px;
+}
+
+.resumeNavIcon {
+  width: 32px;
+  margin-left: -3px;
+}
+
+.ugameNavIcon {
+  width: 23px;
+  margin-left: 1px;
+}
+
+.yahtzeeNavIcon {
+  width: 22px;
+  margin-left: 1px;
 }

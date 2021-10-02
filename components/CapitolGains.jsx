@@ -11,8 +11,8 @@ import IconButton from "@mui/material/IconButton"
 import Typography from "@mui/material/Typography"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import styles from "../styles/Bloom.module.css"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import PublicIcon from '@mui/icons-material/Public';
+import GitHubIcon from "@mui/icons-material/GitHub"
+import PublicIcon from "@mui/icons-material/Public"
 
 const ExpandMore = styled((props) => {
 	const { expand, ...other } = props
@@ -36,8 +36,12 @@ const CapitolGains = () => {
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
 				avatar={
-					<Avatar sx={{ bgcolor: "#CCFFFF"}} aria-label="Capitol Gains Icon">
-						<img src="/capitolGains-icon.png" alt="Capitol Gains Icon" width="28px" />
+					<Avatar sx={{ bgcolor: "#CCFFFF" }} aria-label="Capitol Gains Icon">
+						<img
+							src="/capitolGains-icon.png"
+							alt="Capitol Gains Icon"
+							width="28px"
+						/>
 					</Avatar>
 				}
 				title="Capitol Gains"
@@ -49,16 +53,26 @@ const CapitolGains = () => {
 				image="/capitolGainsLogo.png"
 				alt="Capitol Gains Banner"
 			/>
-			<CardContent >
-				<Typography variant="body2" color="text.secondary" height="120px" >
-				Capitol Gains allows you to see the publicly released disclosures that have been filed by memebers of the United States Congress. The app is broken up by Senate and House of Representatives.
+			<CardContent>
+				<Typography variant="body2" color="text.secondary" height="120px">
+					Capitol Gains allows you to see the publicly released disclosures that
+					have been filed by memebers of the United States Congress. The app is
+					broken up by Senate and House of Representatives.
 				</Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label="Capitol Gains website" href="https://capitol-gains.herokuapp.com/">
+				<IconButton
+					sx={{ cursor: "none" }}
+					aria-label="Capitol Gains website"
+					href="https://capitol-gains.herokuapp.com/"
+				>
 					<PublicIcon />
 				</IconButton>
-				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/capitol-gains">
+				<IconButton
+					sx={{ cursor: "none" }}
+					aria-label="Repo"
+					href="https://github.com/HammerNTime/capitol-gains"
+				>
 					<GitHubIcon />
 				</IconButton>
 				<ExpandMore
@@ -66,6 +80,7 @@ const CapitolGains = () => {
 					onClick={handleExpandClick}
 					aria-expanded={expanded}
 					aria-label="show more"
+					sx={{ cursor: "none" }}
 				>
 					<ExpandMoreIcon />
 				</ExpandMore>
@@ -74,12 +89,30 @@ const CapitolGains = () => {
 			<Collapse in={expanded} timeout="auto" unmountOnExit>
 				<CardContent>
 					<Typography paragraph>
-					Capitol Gains was the third project for my General Assembly Software Engineering Immersive and first ever group project. This App utalizes React, JavaScript, Mongoose, Express, and JWT Token Authentication. While I touched most aspects of the code, my primary focus was on API implementation, manipulation, and data visualization.
+						Capitol Gains was the third project for my General Assembly Software
+						Engineering Immersive and first ever group project. This App
+						utalizes React, JavaScript, Mongoose, Express, and JWT Token
+						Authentication. While I touched most aspects of the code, my primary
+						focus was on API implementation, manipulation, and data
+						visualization.
 					</Typography>
-					<img width="100%" src="/graph.png" alt="Capitol Gains API visualization through line graph" />
+					<img
+						width="100%"
+						src="/graph.png"
+						alt="Capitol Gains API visualization through line graph"
+					/>
 
 					<Typography paragraph>
-						<br/>Shout-out to&nbsp;<a className={styles.names} href="https://github.com/zmar0519">Zachary Martin</a>, and <a className={styles.names} href="https://github.com/SummerXiX">Summer Xing</a>&nbsp;for their dedication and hard work on this project!
+						<br />
+						Shout-out to&nbsp;
+						<a className={styles.names} href="https://github.com/zmar0519">
+							Zachary Martin
+						</a>
+						, and{" "}
+						<a className={styles.names} href="https://github.com/SummerXiX">
+							Summer Xing
+						</a>
+						&nbsp;for their dedication and hard work on this project!
 					</Typography>
 				</CardContent>
 			</Collapse>

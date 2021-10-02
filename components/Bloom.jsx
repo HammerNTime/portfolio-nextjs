@@ -11,8 +11,8 @@ import IconButton from "@mui/material/IconButton"
 import Typography from "@mui/material/Typography"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import styles from "../styles/Bloom.module.css"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import PublicIcon from '@mui/icons-material/Public';
+import GitHubIcon from "@mui/icons-material/GitHub"
+import PublicIcon from "@mui/icons-material/Public"
 
 const ExpandMore = styled((props) => {
 	const { expand, ...other } = props
@@ -36,12 +36,13 @@ const Bloom = () => {
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
 				avatar={
-					<Avatar sx={{ bgcolor: "black"}} aria-label="Bloom icon">
+					<Avatar sx={{ bgcolor: "black" }} aria-label="Bloom icon">
 						<img src="/bloom-icon.png" alt="Bloom Icon" />
 					</Avatar>
 				}
 				title="Bloom"
 				subheader="Grow your opportunities"
+				// sx={{background:"blue"}}
 			/>
 			<CardMedia
 				component="img"
@@ -49,8 +50,8 @@ const Bloom = () => {
 				image="/logo-banner-dark.png"
 				alt="Bloom Banner"
 			/>
-			<CardContent >
-				<Typography variant="body2" color="text.secondary" >
+			<CardContent>
+				<Typography variant="body2" color="text.secondary">
 					At Bloom, we believe every job seeker deserves an opportunity to find
 					meaningful work. That starts with helping you turn complexity into
 					simplicity. When you simplify your search, you can grasp your options,
@@ -58,10 +59,18 @@ const Bloom = () => {
 				</Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label="Bloom website" href="https://www.go-bloom.com/">
+				<IconButton
+					aria-label="Bloom website"
+					href="https://www.go-bloom.com/"
+					sx={{ cursor: "none" }}
+				>
 					<PublicIcon />
 				</IconButton>
-				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/bloom-frontend">
+				<IconButton
+					sx={{ cursor: "none" }}
+					aria-label="Repo"
+					href="https://github.com/HammerNTime/bloom-frontend"
+				>
 					<GitHubIcon />
 				</IconButton>
 				<ExpandMore
@@ -69,6 +78,7 @@ const Bloom = () => {
 					onClick={handleExpandClick}
 					aria-expanded={expanded}
 					aria-label="show more"
+          sx={{cursor:"none"}}
 				>
 					<ExpandMoreIcon />
 				</ExpandMore>

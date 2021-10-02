@@ -4,3 +4,10 @@
 .names:hover {
   color: orange;
 }
+
+.siteLink {
+  color: blue;
+}
+.gitHubLink {
+  color: black;
+}

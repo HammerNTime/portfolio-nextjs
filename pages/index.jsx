@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Bloom from '../components/Bloom'
 import CapitolGains from '../components/CapitolGains'
 import Ugame from '../components/Ugame'

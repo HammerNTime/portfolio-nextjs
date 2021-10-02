@@ -68,6 +68,7 @@ const Ugame = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Ugame website"
 					href="https://u-game-unit-2-project.herokuapp.com/"
+					className={styles.siteLink}
 				>
 					<PublicIcon />
 				</IconButton>
@@ -75,6 +76,8 @@ const Ugame = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Repo"
 					href="https://github.com/HammerNTime/u-game"
+					className={styles.gitHubLink}
+
 				>
 					<GitHubIcon />
 				</IconButton>

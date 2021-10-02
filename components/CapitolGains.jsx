@@ -65,6 +65,7 @@ const CapitolGains = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Capitol Gains website"
 					href="https://capitol-gains.herokuapp.com/"
+					className={styles.siteLink}
 				>
 					<PublicIcon />
 				</IconButton>
@@ -72,6 +73,7 @@ const CapitolGains = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Repo"
 					href="https://github.com/HammerNTime/capitol-gains"
+					className={styles.gitHubLink}
 				>
 					<GitHubIcon />
 				</IconButton>

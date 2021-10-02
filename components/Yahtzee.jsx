@@ -61,6 +61,7 @@ const Yahtzee = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Yahtzee website"
 					href="https://hammer-yahtzee.netlify.app/"
+          className={styles.siteLink}
 				>
 					<PublicIcon />
 				</IconButton>
@@ -68,6 +69,7 @@ const Yahtzee = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Repo"
 					href="https://github.com/HammerNTime/u-game"
+          className={styles.gitHubLink}
 				>
 					<GitHubIcon />
 				</IconButton>

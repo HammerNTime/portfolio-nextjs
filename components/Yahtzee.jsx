@@ -11,8 +11,8 @@ import IconButton from "@mui/material/IconButton"
 import Typography from "@mui/material/Typography"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import styles from "../styles/Bloom.module.css"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import PublicIcon from '@mui/icons-material/Public';
+import GitHubIcon from "@mui/icons-material/GitHub"
+import PublicIcon from "@mui/icons-material/Public"
 
 const ExpandMore = styled((props) => {
 	const { expand, ...other } = props
@@ -35,9 +35,8 @@ const Yahtzee = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
-
 				avatar={
-					<Avatar sx={{ bgcolor: "white"}} aria-label="Yahtzee Icon">
+					<Avatar sx={{ bgcolor: "white" }} aria-label="Yahtzee Icon">
 						<img src="/DiceFav.png" alt="Capitol Gains Icon" width="28px" />
 					</Avatar>
 				}
@@ -50,15 +49,26 @@ const Yahtzee = () => {
 				image="/Yahtzee.png"
 				alt="Ugame Banner"
 			/>
-			<CardContent >
-				<Typography variant="body2" color="text.secondary" height="70px" >
-        Yahtzee is an online 2-player classic Hasboro Yahtzee built from JavaScript, HTML, and CSS. A simple construction, but all the game logic is from scratch. Mobile and Desktop friendly!          </Typography>
+			<CardContent>
+				<Typography variant="body2" color="text.secondary" height="70px">
+					Yahtzee is an online 2-player classic Hasboro Yahtzee built from
+					JavaScript, HTML, and CSS. A simple construction, but all the game
+					logic is from scratch. Mobile and Desktop friendly!{" "}
+				</Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label="Yahtzee website" href="https://hammer-yahtzee.netlify.app/">
+				<IconButton
+					sx={{ cursor: "none" }}
+					aria-label="Yahtzee website"
+					href="https://hammer-yahtzee.netlify.app/"
+				>
 					<PublicIcon />
 				</IconButton>
-				<IconButton aria-label="Repo" href="https://github.com/HammerNTime/u-game">
+				<IconButton
+					sx={{ cursor: "none" }}
+					aria-label="Repo"
+					href="https://github.com/HammerNTime/u-game"
+				>
 					<GitHubIcon />
 				</IconButton>
 				<ExpandMore
@@ -66,6 +76,7 @@ const Yahtzee = () => {
 					onClick={handleExpandClick}
 					aria-expanded={expanded}
 					aria-label="show more"
+					sx={{ cursor: "none" }}
 				>
 					<ExpandMoreIcon />
 				</ExpandMore>
@@ -73,13 +84,23 @@ const Yahtzee = () => {
 
 			<Collapse in={expanded} timeout="auto" unmountOnExit>
 				<CardContent>
-          <img width="100%" src="/yahtzee-start.png" alt="Yahtzee starter page" />
+					<img
+						width="100%"
+						src="/yahtzee-start.png"
+						alt="Yahtzee starter page"
+					/>
 					<Typography paragraph>
-            <br/>
-            Yahztee was my first project for my General Assembly Software Engineering Immersive. It demonstrates my ability to take a limited amount of experience and knowledge and turn it into an engaging application with sound engineering.
-          </Typography>
-					<img width="100%" src="/smart-highlighting-yellow.png" alt="Showing the apps smart highlighting feature" />
-
+						<br />
+						Yahztee was my first project for my General Assembly Software
+						Engineering Immersive. It demonstrates my ability to take a limited
+						amount of experience and knowledge and turn it into an engaging
+						application with sound engineering.
+					</Typography>
+					<img
+						width="100%"
+						src="/smart-highlighting-yellow.png"
+						alt="Showing the apps smart highlighting feature"
+					/>
 				</CardContent>
 			</Collapse>
 		</Card>

@@ -78,7 +78,7 @@ const Bloom = () => {
 					onClick={handleExpandClick}
 					aria-expanded={expanded}
 					aria-label="show more"
-          sx={{cursor:"none"}}
+					sx={{ cursor: "none" }}
 				>
 					<ExpandMoreIcon />
 				</ExpandMore>

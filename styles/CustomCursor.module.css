@@ -11,3 +11,10 @@
 .mouseDown {
   transform: rotate(0deg);
 }
+
+@media only screen and (max-width: 600px) {
+  .dot {
+    display: none;
+  }
+  
+}

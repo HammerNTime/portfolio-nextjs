@@ -1,10 +1,32 @@
 import Layout from "../components/Layout"
 import "../styles/globals.css"
 import Head from "next/head"
+import { styled, ThemeProvider, createTheme } from "@mui/material/styles"
 import HammerCursor from "../components/customCursor"
+
+const theme = createTheme({
+  components: {
+    MuiCardHeader: {
+      styleOverrides: {
+        title: {
+          fontSize: '20px',
+					fontWeight: "600"
+        },
+      },
+    },
+		MuiCardActions: {
+			styleOverrides: {
+				root: {
+					backgroundColor:"rgba(230, 230, 230, .3)"
+				},
+			}
+		},
+  },
+});
 
 const MyApp = ({ Component, pageProps }) => {
 	return (
+		<ThemeProvider theme={theme}>
 		<div className="main-container">
 			<HammerCursor />
 			<Head>
@@ -28,6 +50,7 @@ const MyApp = ({ Component, pageProps }) => {
 				<Component {...pageProps} />
 			</Layout>
 		</div>
+		</ThemeProvider>
 	)
 }
 

@@ -22,21 +22,10 @@ a {
   cursor: none;
 }
 
-.MuiCardHeader-title {
-  font-size: 20px;
-  font-weight: 600;
-}
-.MuiTypography-root{
-  font-size: 20px;
-  font-weight: 600;
-}
 
-/* .MuiAppBar-root {
-  background-color: #355E3B;
-} */
-.MuiCardActions-root {
+/* .MuiCardActions-root {
   background-color: rgba(230, 230, 230, .3);
-}
+} */
 
 @media only screen and (max-width: 600px) {
   * {

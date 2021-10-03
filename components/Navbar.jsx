@@ -181,7 +181,7 @@ const Navbar = () => {
 
 	return (
 		<Box sx={{ flexGrow: 1 }}>
-			<AppBar>
+			<AppBar sx={{backgroundColor:"#355E3B"}}>
 				<Toolbar>
 					<Link href="/" sx={{ cursor: "none" }} className={styles.icon}>
 						<img src="/hammer.png" alt="hammer icon" className={styles.icon} />

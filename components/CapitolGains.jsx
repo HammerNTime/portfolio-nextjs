@@ -35,6 +35,7 @@ const CapitolGains = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
+				sx={{fontSize:"20px", fontWeight:"600"}}
 				avatar={
 					<Avatar sx={{ bgcolor: "#CCFFFF" }} aria-label="Capitol Gains Icon">
 						<img
@@ -67,7 +68,7 @@ const CapitolGains = () => {
 					href="https://capitol-gains.herokuapp.com/"
 					className={styles.siteLink}
 				>
-					<PublicIcon />
+					<PublicIcon sx={{color: "blue"}}/>
 				</IconButton>
 				<IconButton
 					sx={{ cursor: "none" }}
@@ -75,7 +76,7 @@ const CapitolGains = () => {
 					href="https://github.com/HammerNTime/capitol-gains"
 					className={styles.gitHubLink}
 				>
-					<GitHubIcon />
+					<GitHubIcon sx={{color: "black"}}/>
 				</IconButton>
 				<ExpandMore
 					expand={expanded}

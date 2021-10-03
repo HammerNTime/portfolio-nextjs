@@ -35,6 +35,7 @@ const Bloom = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
+				sx={{fontSize:"20px", fontWeight:"600"}}
 				avatar={
 					<Avatar sx={{ bgcolor: "black" }} aria-label="Bloom icon">
 						<img src="/bloom-icon.png" alt="Bloom Icon" />
@@ -65,7 +66,7 @@ const Bloom = () => {
 					sx={{ cursor: "none" }}
 					className={styles.siteLink}
 				>
-					<PublicIcon />
+					<PublicIcon sx={{color: "blue"}} />
 				</IconButton>
 				<IconButton
 					sx={{ cursor: "none" }}
@@ -73,7 +74,7 @@ const Bloom = () => {
 					href="https://github.com/HammerNTime/bloom-frontend"
 					className={styles.gitHubLink}
 				>
-					<GitHubIcon />
+					<GitHubIcon sx={{color: "black"}}/>
 				</IconButton>
 				<ExpandMore
 					expand={expanded}

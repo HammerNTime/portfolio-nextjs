@@ -30,7 +30,7 @@ const Dylan = () => {
 		}, 7000)
 		setTimeout(() => {
 			setFireBack(styles.fireBack)
-		}, 7500)
+		}, 6990)
 	}, [])
 	return (
 		<div className={styles.mainContainer}>

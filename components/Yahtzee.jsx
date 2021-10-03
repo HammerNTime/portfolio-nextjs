@@ -35,6 +35,7 @@ const Yahtzee = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
+				sx={{fontSize:"20px", fontWeight:"600"}}
 				avatar={
 					<Avatar sx={{ bgcolor: "white" }} aria-label="Yahtzee Icon">
 						<img src="/DiceFav.png" alt="Capitol Gains Icon" width="28px" />
@@ -63,7 +64,7 @@ const Yahtzee = () => {
 					href="https://hammer-yahtzee.netlify.app/"
 					className={styles.siteLink}
 				>
-					<PublicIcon />
+					<PublicIcon sx={{color: "blue"}}/>
 				</IconButton>
 				<IconButton
 					sx={{ cursor: "none" }}
@@ -71,7 +72,7 @@ const Yahtzee = () => {
 					href="https://github.com/HammerNTime/u-game"
 					className={styles.gitHubLink}
 				>
-					<GitHubIcon />
+					<GitHubIcon sx={{color: "black"}}/>
 				</IconButton>
 				<ExpandMore
 					expand={expanded}

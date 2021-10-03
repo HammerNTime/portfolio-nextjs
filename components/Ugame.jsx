@@ -35,6 +35,7 @@ const Ugame = () => {
 	return (
 		<Card sx={{ maxWidth: 345 }}>
 			<CardHeader
+				sx={{fontSize:"20px", fontWeight:"600"}}
 				avatar={
 					<Avatar
 						sx={{ bgcolor: "rgb(0,212,255)" }}
@@ -70,7 +71,7 @@ const Ugame = () => {
 					href="https://u-game-unit-2-project.herokuapp.com/"
 					className={styles.siteLink}
 				>
-					<PublicIcon />
+					<PublicIcon sx={{color: "blue"}}/>
 				</IconButton>
 				<IconButton
 					sx={{ cursor: "none" }}
@@ -78,7 +79,7 @@ const Ugame = () => {
 					href="https://github.com/HammerNTime/u-game"
 					className={styles.gitHubLink}
 				>
-					<GitHubIcon />
+					<GitHubIcon sx={{color: "black"}}/>
 				</IconButton>
 				<ExpandMore
 					expand={expanded}

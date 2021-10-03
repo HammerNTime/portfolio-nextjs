@@ -19,7 +19,7 @@ const HammerCursor = () => {
 				src="/hammerlast.png"
 				className={styles.dot + " " + test}
 				style={{ left: `${x}px`, top: `${y}px` }}
-				auto
+				auto="true"
 			/>
 		</>
 	)

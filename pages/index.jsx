@@ -1,3 +1,4 @@
+import AboutMe from '../components/AboutMe'
 import Bloom from '../components/Bloom'
 import CapitolGains from '../components/CapitolGains'
 import Dylan from '../components/Dylan'
@@ -11,6 +12,7 @@ export default function Home() {
       <div className={styles.dylanContainer}>
         <Dylan />
       </div>
+      <AboutMe />
       <div className={styles.projects}>
         <div className={styles.projectCards}>
           <Bloom />

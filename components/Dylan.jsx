@@ -35,6 +35,7 @@ const Dylan = () => {
   }, []);
   return (
     <div className={styles.mainContainer}>
+      <div></div>
       <div>
         <img src="/headShotVector.png" alt="" className={styles.headShot +" "+fireBack} />
       </div>

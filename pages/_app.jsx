@@ -30,7 +30,7 @@ const MyApp = ({ Component, pageProps }) => {
 		<div className="main-container">
 			<HammerCursor />
 			<Head>
-				<title>Hammer Portfolio</title>
+				<title>Hammer Time</title>
 				<link
 					rel="stylesheet"
 					href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"

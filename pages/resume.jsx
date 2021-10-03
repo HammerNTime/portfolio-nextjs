@@ -11,6 +11,7 @@ function Resume() {
 				width="100%"
 				height="700px"
 			></iframe>
+			{/* <div className={styles.box}></div> */}
 		</div>
 	)
 }

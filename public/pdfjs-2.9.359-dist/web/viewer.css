@@ -12,7 +12,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+/* .cursor {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 9000;
+} */
 .textLayer {
   position: absolute;
   left: 0;

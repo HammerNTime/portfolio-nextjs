@@ -27,7 +27,14 @@
 /* 1 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+// let mouseCursor = document.querySelector(".cursor")
 
+// window.addEventListener("mousemove", cursor)
+
+// function cursor(e) {
+//   mouseCursor.style.top = e.pageY + "px"
+//   mouseCursor.style.left = e.pageX + "px"
+// }
 
 Object.defineProperty(exports, "__esModule", ({
   value: true

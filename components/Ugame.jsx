@@ -77,7 +77,6 @@ const Ugame = () => {
 					aria-label="Repo"
 					href="https://github.com/HammerNTime/u-game"
 					className={styles.gitHubLink}
-
 				>
 					<GitHubIcon />
 				</IconButton>

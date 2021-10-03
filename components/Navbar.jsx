@@ -46,7 +46,7 @@ const Navbar = () => {
 		<Box
 			sx={{
 				width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-				cursor: "none"
+				cursor: "none",
 			}}
 			role="presentation"
 			onClick={toggleDrawer(anchor, false)}
@@ -181,8 +181,8 @@ const Navbar = () => {
 
 	return (
 		<Box sx={{ flexGrow: 1 }}>
-			<AppBar >
-				<Toolbar >
+			<AppBar>
+				<Toolbar>
 					<Link href="/" sx={{ cursor: "none" }} className={styles.icon}>
 						<img src="/hammer.png" alt="hammer icon" className={styles.icon} />
 					</Link>

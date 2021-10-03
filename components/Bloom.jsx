@@ -63,7 +63,7 @@ const Bloom = () => {
 					aria-label="Bloom website"
 					href="https://www.go-bloom.com/"
 					sx={{ cursor: "none" }}
-          className={styles.siteLink}
+					className={styles.siteLink}
 				>
 					<PublicIcon />
 				</IconButton>
@@ -71,7 +71,7 @@ const Bloom = () => {
 					sx={{ cursor: "none" }}
 					aria-label="Repo"
 					href="https://github.com/HammerNTime/bloom-frontend"
-          className={styles.gitHubLink}
+					className={styles.gitHubLink}
 				>
 					<GitHubIcon />
 				</IconButton>

@@ -26,6 +26,10 @@ a {
   font-size: 20px;
   font-weight: 600;
 }
+.MuiTypography-root{
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /* .MuiAppBar-root {
   background-color: #355E3B;

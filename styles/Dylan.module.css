@@ -8,3 +8,84 @@
   width: 300px;
   border-radius: 15%;
 }
+
+.dylan1 {
+  display: none;  
+  position: absolute;
+  margin-left: -40vmax;
+  margin-top: 70px;
+  font-size: 60px;
+  transform: rotate(-45deg);
+  font-family: 'Bangers', cursive;
+}
+.dylan2 {
+  display: none;  
+  position: absolute;
+  margin-left: -40vmax;
+  margin-top: 270px;
+  font-size: 50px;
+  transform: rotateY(180deg);
+  font-family: 'Carter One', cursive;
+}
+.dylan3 {
+  display: none;  
+  position: absolute;
+  margin-top: -90px ;
+  /* margin-left: 30px; */
+  font-size: 60px;
+  font-family: 'Fruktur', cursive;
+}
+.dylan4 {
+  display: none;  
+  position: absolute;
+  margin-left: 40vmax;
+  margin-top: 60px;
+  font-size: 40px;
+  transform: rotate(180deg);
+  font-family: 'Geostar Fill', cursive;
+}
+.dylan5 {
+  display: none;  
+  position: absolute;
+  margin-left: 40vmax;
+  margin-top: 270px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  font-family: 'Press Start 2P', cursive;
+}
+
+.fire {
+  display: none;  
+  position: absolute;
+  color: red;
+  margin-top: 470px;
+  font-size: 70px;
+  font-family: 'Akronim', cursive;
+}
+
+@media only screen and (min-width: 700px) {
+  .show1 {
+    display: initial;  
+  }
+  .show2 {
+    display: initial;
+  }
+  .show3 {
+    display: initial;
+
+  }
+  .show4 {
+    display: initial;
+  }
+  .show5 {
+    display: initial;
+  }
+  .show6 {
+    display: initial;
+  }
+  .fireBack {
+    background-image: url(/flames.jpeg);
+    background-size: 300px;
+    background-position-x: 10px;  
+  }
+}

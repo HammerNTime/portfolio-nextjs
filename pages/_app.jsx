@@ -13,6 +13,9 @@ const MyApp = ({ Component, pageProps }) => {
 					rel="stylesheet"
 					href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 				/>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
+				<link href="https://fonts.googleapis.com/css2?family=Akronim&family=Bangers&family=Carter+One&family=Fruktur&family=Geostar+Fill&family=Press+Start+2P&display=swap" rel="stylesheet"/>
 			</Head>
 			<Layout>
 				<Component {...pageProps} />

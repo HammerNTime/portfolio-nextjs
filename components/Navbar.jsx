@@ -181,15 +181,15 @@ const Navbar = () => {
 
 	return (
 		<Box sx={{ flexGrow: 1 }}>
-			<AppBar sx={{ position: "relative" }}>
-				<Toolbar>
+			<AppBar >
+				<Toolbar >
 					<Link href="/" sx={{ cursor: "none" }} className={styles.icon}>
 						<img src="/hammer.png" alt="hammer icon" className={styles.icon} />
 					</Link>
 					<Typography
-						textAlign="center"
-						marginLeft="-15px"
-						variant="h5"
+						textAlign="left"
+						marginLeft="10px"
+						variant="h6"
 						component="div"
 						sx={{ flexGrow: 1 }}
 					>

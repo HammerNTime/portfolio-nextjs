@@ -3,3 +3,8 @@
   display: flex;
   justify-content: center;
 }
+
+.headShot {
+  width: 300px;
+  border-radius: 15%;
+}

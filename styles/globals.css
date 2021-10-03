@@ -30,11 +30,12 @@ a {
 .MuiAppBar-root {
   background-color: #355E3B;
 }
-/* .MuiSvgIcon-root {
-  color: black;
-} */
-
-.MuiMenu-root{
-  background-color: blue;
+.MuiCardActions-root {
+  background-color: rgba(230, 230, 230, .3);
 }
 
+@media only screen and (max-width: 600px) {
+  * {
+    cursor: auto;
+  }
+}

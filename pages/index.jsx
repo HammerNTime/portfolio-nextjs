@@ -7,8 +7,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <Dylan />
+    <div className={styles.mainContainer}>
+      <div className={styles.dylanContainer}>
+        <Dylan />
+      </div>
       <div className={styles.projects}>
         <div className={styles.projectCards}>
           <Bloom />

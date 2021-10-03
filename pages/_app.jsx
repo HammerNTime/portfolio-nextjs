@@ -1,4 +1,4 @@
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import "../styles/globals.css"
 import Head from "next/head"
 import HammerCursor from "../components/customCursor"

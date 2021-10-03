@@ -10,25 +10,25 @@
 }
 
 .dylan1 {
-  display: none;  
+  opacity: 0;
   position: absolute;
-  margin-left: -40vmax;
+  margin-left: -560px;
   margin-top: 70px;
   font-size: 60px;
   transform: rotate(-45deg);
   font-family: 'Bangers', cursive;
 }
 .dylan2 {
-  display: none;  
+  opacity: 0;
   position: absolute;
-  margin-left: -40vmax;
+  margin-left: -560px;
   margin-top: 270px;
   font-size: 50px;
   transform: rotateY(180deg);
   font-family: 'Carter One', cursive;
 }
 .dylan3 {
-  display: none;  
+  opacity: 0;
   position: absolute;
   margin-top: -90px ;
   /* margin-left: 30px; */
@@ -36,18 +36,18 @@
   font-family: 'Fruktur', cursive;
 }
 .dylan4 {
-  display: none;  
+  opacity: 0;
   position: absolute;
-  margin-left: 40vmax;
+  margin-left: 560px;
   margin-top: 60px;
   font-size: 40px;
   transform: rotate(180deg);
   font-family: 'Geostar Fill', cursive;
 }
 .dylan5 {
-  display: none;  
+  opacity: 0;
   position: absolute;
-  margin-left: 40vmax;
+  margin-left: 560px;
   margin-top: 270px;
   font-size: 40px;
   transform: rotate(45deg);
@@ -55,33 +55,54 @@
 }
 
 .fire {
-  display: none;  
+  opacity: 0;
   position: absolute;
   color: red;
   margin-top: 470px;
   font-size: 70px;
   font-family: 'Akronim', cursive;
 }
-
+@media only screen and (max-width: 699px) {
+  .dylan1 {
+    display: none;  
+  }
+  .dylan2 {
+    display: none;  
+  }
+  .dylan3 {
+    display: none;  
+  }
+  .dylan4 {
+    display: none;  
+  }
+  .dylan5 {
+    display: none;  
+  }
+  
+  .fire {
+    display: none;  
+  }
+  
+}
 @media only screen and (min-width: 700px) {
   .show1 {
-    display: initial;  
+    opacity: 1;
   }
   .show2 {
-    display: initial;
+    opacity: 1;
   }
   .show3 {
-    display: initial;
+    opacity: 1;
 
   }
   .show4 {
-    display: initial;
+    opacity: 1;
   }
   .show5 {
-    display: initial;
+    opacity: 1;
   }
   .show6 {
-    display: initial;
+    opacity: 1;
   }
   .fireBack {
     background-image: url(/flames.jpeg);

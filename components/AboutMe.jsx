@@ -29,7 +29,7 @@ const AboutMe = () => {
           </Typography>
         </CardContent>
         <CardActions sx={{display:"flex", justifyContent:"center"}}>
-          <Typography sx={{textAlign:"center"}} size="small">Checkout My Recent Projects Below</Typography>
+          <Typography sx={{textAlign:"center"}} size="small">Checkout My Recent Projects:</Typography>
         </CardActions>
       </Card>
 

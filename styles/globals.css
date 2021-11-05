@@ -7,6 +7,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   width: 100%;
   background-color: #E8EFEB;
+  z-index: -100;
   /* cursor: url("/hammer.ico"), auto; */
 
 }

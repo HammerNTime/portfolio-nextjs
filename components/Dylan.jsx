@@ -47,7 +47,7 @@ const Dylan = () => {
 			<div className={styles.dylan3 + " " + show3}>Dylan</div>
 			<div className={styles.dylan4 + " " + show4}>Dylan</div>
 			<div className={styles.dylan5 + " " + show5}>Dylan</div>
-			<div className={styles.fire + " " + show6}>I Spit Hot Fire</div>
+			<div className={styles.fire + " " + show6}>I Code Hot Fire</div>
 		</div>
 	)
 }

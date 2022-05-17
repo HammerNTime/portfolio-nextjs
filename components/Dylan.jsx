@@ -27,10 +27,9 @@ const Dylan = () => {
 		}, 6000)
 		setTimeout(() => {
 			setShow6(styles.show6)
-		}, 7000)
-		setTimeout(() => {
 			setFireBack(styles.fireBack)
-		}, 6990)
+		}, 7000)
+
 	}, [])
 	return (
 		<div className={styles.mainContainer}>

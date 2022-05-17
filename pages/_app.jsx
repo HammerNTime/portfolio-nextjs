@@ -1,6 +1,7 @@
 import Layout from "../components/Layout"
 import "../styles/globals.css"
 import Head from "next/head"
+import Script from 'next/script'
 import { styled, ThemeProvider, createTheme } from "@mui/material/styles"
 import HammerCursor from "../components/customCursor"
 
@@ -28,6 +29,8 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<ThemeProvider theme={theme}>
 		<div className="main-container">
+			<Script type="text/javascript" src="https://xl1.pop6serve.com/popsixle.php?t=5fd8d26899c79a2e031ac156a64424166b771901c42eb88c02ca4983d7e09e03"/>
+
 			<HammerCursor />
 			<Head>
 				<title>Hammer Time</title>
